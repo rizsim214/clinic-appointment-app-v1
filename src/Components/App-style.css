@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: 'Noto Sans Georgian', sans-serif;
+}
+
+:root {
+  --dark-blue: #03045e;
+  --lighter-blue: #0077b6;
+  --midday-blue: #00b4d8;
+  --sky-blue: #90e0ef;
+  --icy-blue: #caf0f8;
+}
+
+header {
+  background: url(../assets/images/clinic1.2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: -999;
+}
